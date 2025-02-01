@@ -1,0 +1,8 @@
+.contenedor {
+    display: flex; /* Organiza los elementos en fila */
+    justify-content: center; /* Centra las tarjetas en la pantalla */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Margen interno */
+    flex-wrap: wrap; /* Permite que las tarjetas bajen en pantallas pequeñas */
+    background-color: #f8f8f8;
+  }
