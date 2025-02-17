@@ -1,3 +1,5 @@
+import CardPizza from './components/CardPizza'
+import Cart from './components/Cart'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import Login from './components/Login'
@@ -9,9 +11,10 @@ const App = () => {
   return (
     <>
       <Navbar />
-      {/*<Home/>*/}
+      <Home/>
       {/*<Register/>*/}
-      <Login/>
+      {/*<Login/>*/}
+      <Cart/>
       <Footer />
     </>
   )
